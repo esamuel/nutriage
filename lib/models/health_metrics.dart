@@ -1,6 +1,4 @@
-// lib/models/health_metrics.dart
-
-import 'package:flutter/material.dart';  // Add this for IconData
+import 'package:flutter/material.dart';
 
 class MetricTypes {
   static const String bloodPressure = 'Blood Pressure';

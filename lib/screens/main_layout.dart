@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import './home/home_screen.dart';
 import './meals/meal_plan_screen.dart';
+import './health/sheets/health_tracking_screen.dart';
 import './profile/profile_screen.dart';
-import 'health/sheets/health_tracking_screen.dart'; 
 
 class MainLayout extends StatefulWidget {
   const MainLayout({super.key});
@@ -35,7 +35,6 @@ class _MainLayoutState extends State<MainLayout> {
             _selectedIndex = index;
           });
         },
-        type: BottomNavigationBarType.fixed,
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),

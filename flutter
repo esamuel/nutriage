@@ -5,12 +5,11 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Welcome')),
-      body: SingleChildScrollView( // Wrap in SingleChildScrollView
+      body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
             children: [
-              // Your widgets here
               Text('Welcome to the app!'),
               // ... other widgets ...
             ],
